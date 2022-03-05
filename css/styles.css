@@ -122,6 +122,10 @@ body ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--font-black1);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts {
@@ -147,11 +151,19 @@ body ul {
   letter-spacing: 0.02em;
   color: var(--font-gray);
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-envelope {
   margin-right: 10px;
   fill: var(--font-gray);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover .icon-envelope {
   fill: var(--font-blue);
@@ -208,6 +220,10 @@ body ul {
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title button:hover,
@@ -330,9 +346,17 @@ body ul {
 }
 .team-links-item {
   border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-links-item use {
   fill: var(--icons-greay);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-links-item:hover,
 .team-links-item:focus {
@@ -368,6 +392,10 @@ body ul {
   border: 1px solid var(--icons-greay);
   border-radius: 4px;
   fill: var(--icons-greay);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon-list .item:hover,
@@ -411,6 +439,10 @@ body ul {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
@@ -439,6 +471,10 @@ body ul {
 
   background-color: var(--icons-transpered);
   border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons-list .item use {
@@ -486,6 +522,10 @@ body ul {
   border: none;
   background-color: var(--background-gray);
   border-radius: 4px;
+
+  transition-property: background-color, box-shadow, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -512,6 +552,10 @@ body ul {
 .products a {
   text-decoration: none;
   display: block;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .products a:hover,
 .products a:focus{
