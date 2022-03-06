@@ -312,6 +312,7 @@ body ul {
   line-height: 1.14;
   text-transform: uppercase;  
 }
+
 .team-section {
   background: var(--background-gray);
 }
@@ -585,6 +586,21 @@ body ul {
 .products a:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.products .thumb{
+  position: relative;
+}
+
+.products .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(33, 150, 243, 0.9);
 }
 .products-title {
   margin-bottom: 4px;
