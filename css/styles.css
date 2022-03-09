@@ -716,20 +716,16 @@ body ul {
   animation-name: animation;
   animation-duration: 500ms;
   animation-direction: reverse;
-  /* transform-origin: 70% 50%; */
-
 }
 
 .inAnimation{
   animation-name: animation;
   animation-duration: 500ms;
-  /* transform-origin: 70% 50%; */
 }
 
 @keyframes animation{
   0%{
     transform:perspective(1000px) scale(0%, 0%) rotateY(90deg);
-    /* transform: */
   }
   100%{
     transform:perspective(1000px) scale(100%, 100%) rotateY(0deg); 
