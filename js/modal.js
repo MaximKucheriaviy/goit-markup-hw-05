@@ -9,6 +9,19 @@
     refs.closeModalBtn.addEventListener("click", toggleModal);
   
     function toggleModal() {
-      refs.modal.classList.toggle("is-hidden");
+      if(!refs.modal.classList.contains("is-hidden")){
+        refs.modal.classList.add("outAnimation");
+        setTimeout(function(){
+          refs.modal.classList.add("is-hidden");
+          refs.modal.classList.remove("outAnimation");
+        }, 500);
+      }
+      else{
+        refs.modal.classList.remove("is-hidden");
+        refs.modal.classList.add("inAnimation");
+        setTimeout(function(){
+          refs.modal.classList.remove("inAnimation");
+        }, 500);
+      }
     }
   })();

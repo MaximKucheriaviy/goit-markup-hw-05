@@ -673,6 +673,7 @@ body ul {
   height: 100%;
 
   background-color:rgba(0, 0, 0, 0.2);
+  transform: perspective(3px);
 }
 
 .modal-window{
@@ -709,4 +710,25 @@ body ul {
   visibility: hidden;
   opacity: 0;
   pointer-events: unset;
+}
+
+.outAnimation{
+  animation-name: animation;
+  animation-duration: 500ms;
+  animation-direction: reverse;
+}
+
+.inAnimation{
+  animation-name: animation;
+  animation-duration: 500ms;
+}
+
+@keyframes animation{
+  0%{
+    transform:scale(0%, 0%) rotateZ(90deg);
+    /* transform: */
+  }
+  100%{
+    transform:scale(100%, 100%) rotateZ(0deg); 
+  }
 }
