@@ -146,6 +146,8 @@ body ul {
   background-color: var(--font-blue);
   border-radius: 2px;
   display: block;
+
+  pointer-events: none;
 }
 
 .header-contacts {
